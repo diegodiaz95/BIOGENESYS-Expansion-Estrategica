@@ -1,33 +1,29 @@
-# Spirit Liquors - El valor oculto 🍹🔍💎
+# Biogenesys - Expansión Estratégica 💊📊🌍
 
-En este proyecto se realizó un análisis integral de un dataset alojado en Kaggle, aplicando un ciclo end-to-end de ETL (extracción, transformación y carga) hacia una base de datos en Google Cloud Platform (GCP). Se automatizó la ingesta de datos y se implementaron técnicas avanzadas de análisis con **Python** y **Power BI**, lo que permitió identificar insights críticos en la gestión de inventarios, compras y ventas de **Spirit Liquors**, empresa dedicada a la comercialización de bebidas alcohólicas.
+En este proyecto se desarrolló un análisis integral con Python para definir la estrategia de expansión de laboratorios farmacéuticos en Latinoamérica. Se procesaron y transformaron datos masivos de incidencia de COVID-19, tasas de vacunación e infraestructura sanitaria, aplicando un ciclo ETL robusto para obtener información confiable. Además, se aplicaron técnicas avanzadas de análisis exploratorio y series temporales, integrando los hallazgos en dashboards interactivos en **Power BI** que facilitan la toma de decisiones estratégicas.
 
 ---
 
 ## Procedimiento
 
-1. Diseñar un modelo ER del dataset, identificando de manera eficiente las entidades y relaciones para lograr una estructura normalizada.  
-2. Crear una base de datos **SQL Server** en **GCP**, configurada para optimizar el rendimiento y garantizar la seguridad.  
-3. Procesar y limpiar los datos en **Python**, reconstruyendo dataframes para la carga en la nube.  
-4. Automatizar la ingesta de nuevos datos mediante el programador de tareas de **Windows**, integrando archivos locales a **GCP**.  
-5. Configurar un archivo `.pbix` en **Power BI** siguiendo buenas prácticas, definiendo tablas, campos y tipos de datos adecuados.  
-6. Asegurar el acceso a la base de datos mediante credenciales y restricciones basadas en IPs autorizadas.  
-7. Importar datos en **Power BI**, definiendo medidas calculadas y añadiendo columnas que aporten valor al análisis.  
-8. Elaborar un reporte final en **Power BI** enfocado en ventas, compras e inventarios, con visualizaciones personalizadas basadas en el mockup.  
-9. Desarrollar un modelo **Random Forest** de **Machine Learning** para predecir ventas según el comportamiento de los datos.
+1. Cargar y transformar un dataset optimizado (12+ millones de registros y 50 columnas) filtrando datos de Colombia, Argentina, Chile, México, Perú y Brasil, y aplicando una limpieza exhaustiva.  
+2. Realizar un análisis exploratorio con estadísticas descriptivas, generación de medidas personalizadas y evaluación de tendencias a través de visualizaciones con **Pandas**, **NumPy**, **Matplotlib** y **Seaborn**.  
+3. Desarrollar análisis avanzados de series temporales para identificar patrones y correlaciones en la evolución de la incidencia de COVID-19 y la cobertura de vacunación.  
+4. Integrar los insights en dashboards interactivos en **Power BI**, permitiendo evaluar la demanda, logística e infraestructura sanitaria para proponer ubicaciones estratégicas de nuevos laboratorios y centros de vacunación.
 
 ---
 
 ## Herramientas
 
-🛠️ **SQL Server** | **Power BI** | **DAX** | **Power Query** | **Python** | **GCP**
+🛠️ **Python** | **Pandas** | **NumPy** | **Matplotlib** | **Seaborn** | **Power BI** | **ETL**
 
 ---
 
 ### Aptitudes
 
-- Google Cloud  
-- Microsoft SQL Server  
-- Microsoft Power BI  
 - Python  
-- Aprendizaje automático  
+- Pandas  
+- NumPy  
+- Seaborn  
+- Microsoft Power BI  
+
